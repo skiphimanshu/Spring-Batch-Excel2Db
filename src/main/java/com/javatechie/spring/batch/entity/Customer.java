@@ -23,16 +23,16 @@ public class Customer {
     private String firstName;
     @Column(name = "LAST_NAME")
     private String lastName;
-    @Column(name = "EMAIL")
-    private String email;
     @Column(name = "GENDER")
     private String gender;
-    @Column(name = "CONTACT")
-    private String contactNo;
     @Column(name = "COUNTRY")
     private String country;
+    @Column(name = "AGE")
+    private Integer age;
     @Column(name = "DOB")
-    private String dob;
+    private String date;
+    @Column(name = "ROLL")
+    private Integer roll;
 
 
 }
